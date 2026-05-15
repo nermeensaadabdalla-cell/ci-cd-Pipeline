@@ -5,7 +5,8 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/nermeensaadabdalla-cell/ci-cd-Pipeline.git'
+                git branch: 'main',
+                url: 'https://github.com/nermeensaadabdalla-cell/ci-cd-Pipeline.git'
             }
         }
 
@@ -38,3 +39,72 @@ pipeline {
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
